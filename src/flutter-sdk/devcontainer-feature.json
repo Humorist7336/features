@@ -5,7 +5,7 @@
   "description": "Installs Flutter SDK",
 
   "containerEnv": {
-    
+    "PATH": "${containerEnv:PATH}:/usr/bin/flutter/bin"
   },
 
   "customizations": {
