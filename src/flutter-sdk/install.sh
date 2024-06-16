@@ -12,3 +12,6 @@ rm $fileName
 
 chmod 755 /usr/bin/flutter
 chmod 755 /usr/bin/flutter/bin
+
+echo 'export PATH="/usr/bin/flutter/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/bin/flutter/bin:$PATH"' >> ~/.zshenv
