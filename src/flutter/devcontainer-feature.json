@@ -1,0 +1,29 @@
+{
+  "name": "Flutter",
+  "id": "flutter-sdk",
+  "version": "1.0.0",
+  "description": "Installs Flutter SDK",
+
+  "containerEnv": {
+    
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter"
+      ]
+    },
+    "codespaces": {
+      "repositories": {
+          "my-org/private-features": {
+              "permissions": {
+                  "packages": "read",
+                  "contents": "read"
+              }
+          }
+      }
+    }
+  }
+}
